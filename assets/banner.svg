@@ -1,49 +1,21 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Real Estate Data Dashboard">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0c08"/>
-      <stop offset="55%" stop-color="#141c10"/>
-      <stop offset="100%" stop-color="#1d2a16"/>
-    </linearGradient>
-
-    <pattern id="mot" width="130" height="90" patternUnits="userSpaceOnUse">
-      <g fill="#9fe83a" opacity="0.20">
-        <rect x="10" y="52" width="13" height="38"/><rect x="30" y="34" width="13" height="56"/>
-        <rect x="50" y="62" width="13" height="28"/><rect x="70" y="22" width="13" height="68"/>
-        <rect x="90" y="46" width="13" height="44"/>
-      </g>
-      <path d="M10 48 L36 30 L56 58 L76 18 L96 42" fill="none" stroke="#00d9c0"
-            stroke-width="1.3" opacity="0.32"/>
-    </pattern>
-    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00d9c0" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00d9c0" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#00d9c0" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0a0c08"/><stop offset="100%" stop-color="#18220f"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="g"/>
+      <feGaussianBlur stdDeviation="3.6" result="g"/>
       <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-
   <rect width="900" height="200" fill="url(#bg)"/>
-  <rect width="900" height="200" fill="url(#mot)"/>
-  <rect width="900" height="34" fill="url(#scan)" opacity="0.5"/>
-
-  <g fill="none" stroke="#00d9c0" stroke-width="2.4" opacity="0.85">
-    <path d="M22 52 V22 H52"/><path d="M848 22 H878 V52"/>
-    <path d="M22 148 V178 H52"/><path d="M848 178 H878 V148"/>
-  </g>
-
-  <text x="60" y="70" font-family="Consolas, 'Courier New', monospace" font-size="14"
-        fill="#9fe83a" opacity="0.78" letter-spacing="2.5">&gt; analyze realestate.csv</text>
-
-  <text x="60" y="120" font-family="Consolas, 'Courier New', monospace"
-        font-size="38" font-weight="bold" fill="#9fe83a" filter="url(#glow)"
-        letter-spacing="2">Real Estate Data Dashboard</text>
-
-  <text x="62" y="152" font-family="Consolas, 'Courier New', monospace"
-        font-size="15" fill="#00d9c0" opacity="0.92" letter-spacing="1.2">Analysis dashboard over South Carolina real-estate data</text>
-
-  <rect x="60" y="164" width="150" height="2.5" fill="#9fe83a" opacity="0.85"/>
+  <path d="M480 40 H880" stroke="#2f4419" stroke-width="1" opacity="0.45"/><path d="M480 74 H880" stroke="#2f4419" stroke-width="1" opacity="0.45"/><path d="M480 108 H880" stroke="#2f4419" stroke-width="1" opacity="0.45"/><path d="M480 142 H880" stroke="#2f4419" stroke-width="1" opacity="0.45"/>
+  <rect x="500" y="126" width="30" height="52" rx="2" fill="#9fe83a" opacity="0.30"/><rect x="546" y="90" width="30" height="88" rx="2" fill="#9fe83a" opacity="0.38"/><rect x="592" y="138" width="30" height="40" rx="2" fill="#9fe83a" opacity="0.45"/><rect x="638" y="62" width="30" height="116" rx="2" fill="#9fe83a" opacity="0.52"/><rect x="684" y="106" width="30" height="72" rx="2" fill="#9fe83a" opacity="0.60"/><rect x="730" y="44" width="30" height="134" rx="2" fill="#9fe83a" opacity="0.68"/><rect x="776" y="82" width="30" height="96" rx="2" fill="#9fe83a" opacity="0.75"/><rect x="822" y="28" width="30" height="150" rx="2" fill="#9fe83a" opacity="0.82"/>
+  <polyline points="515,114 561,78 607,126 653,50 699,94 745,32 791,70 837,16" fill="none" stroke="#00d9c0" stroke-width="2.2"/>
+  <circle cx="515" cy="114" r="3.4" fill="#00d9c0"/><circle cx="561" cy="78" r="3.4" fill="#00d9c0"/><circle cx="607" cy="126" r="3.4" fill="#00d9c0"/><circle cx="653" cy="50" r="3.4" fill="#00d9c0"/><circle cx="699" cy="94" r="3.4" fill="#00d9c0"/><circle cx="745" cy="32" r="3.4" fill="#00d9c0"/><circle cx="791" cy="70" r="3.4" fill="#00d9c0"/><circle cx="837" cy="16" r="3.4" fill="#00d9c0"/>
+  <path d="M480 178 H880" stroke="#2f4419" stroke-width="1.6"/>
+  <text x="40" y="66" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="normal" fill="#9fe83a" opacity="0.85" text-anchor="start" letter-spacing="2">&gt; analyze realestate.csv</text>
+  <text x="40" y="110" font-family="Consolas, 'Courier New', monospace" font-size="36" font-weight="bold" fill="#9fe83a" opacity="1.0" text-anchor="start" letter-spacing="1.4" filter="url(#glow)">Real Estate Data Dashboard</text>
+  <text x="42" y="136" font-family="Consolas, 'Courier New', monospace" font-size="13.5" font-weight="normal" fill="#00d9c0" opacity="0.92" text-anchor="start" letter-spacing="1.0">Analysis dashboard over South Carolina real-estate data</text>
+  <rect x="40" y="150" width="110" height="2.5" fill="#9fe83a"/>
 </svg>
